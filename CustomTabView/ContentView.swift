@@ -25,12 +25,6 @@ struct ContentView: View {
                 .tabItem {
                     Label("Initial", systemImage: "book")
                 }
-            
-            Read2(currentPageSelection: $currentPageSelection)
-                .tag(3)
-                .tabItem {
-                    Label("Read", systemImage: "book.and.wrench")
-                }
         })
     }
 }

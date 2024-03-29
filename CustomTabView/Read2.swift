@@ -9,8 +9,7 @@ import SwiftUI
 
 struct Read2: View {
     
-    @Binding var currentPageSelection: Int
-    @State private var previousPage: Int = 0
+    @Environment(\.dismiss) private var dismiss
     
     var body: some View {
         NavigationStack {
@@ -129,7 +128,7 @@ struct Read2: View {
                                 
                                 TabBarIcon(systemName: "xmark")
                                     .onTapGesture {
-                                        currentPageSelection = previousPage
+                                        dismiss()
                                     }
                             }
                         }
@@ -201,5 +200,5 @@ struct NavigationArrow: View {
 }
 
 #Preview {
-    Read2(currentPageSelection: .constant(2))
+    Read2()
 }
