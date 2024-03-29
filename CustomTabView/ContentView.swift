@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var currentPageSelection: Int = 2
+    @State private var currentPageSelection: Int = 1
     
     var body: some View {
         TabView(selection: $currentPageSelection,
@@ -17,20 +17,20 @@ struct ContentView: View {
             PlaceholderPage()
                 .tag(1)
                 .tabItem {
-                    Label("1", systemImage: "phone")
+                    Label("1", systemImage: "person")
                 }
             
-            PlaceholderPage()
+            Read(currentPageSelection: $currentPageSelection)
                 .tag(2)
                 .tabItem {
-                    Label("2", systemImage: "carrot")
+                    Label("Initial", systemImage: "book")
                 }
             
-            GoBackPage(currentPageSelection: $currentPageSelection)
+            Read2(currentPageSelection: $currentPageSelection)
                 .tag(3)
                 .tabItem {
-                    Label("Check out", systemImage: "book")
-                }                
+                    Label("Read", systemImage: "book.and.wrench")
+                }
         })
     }
 }

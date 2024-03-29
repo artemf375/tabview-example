@@ -13,6 +13,8 @@
 		0C52F5572BB6E819003B704A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C52F5562BB6E819003B704A /* Preview Assets.xcassets */; };
 		0C52F55E2BB6E86C003B704A /* GoBackPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52F55D2BB6E86C003B704A /* GoBackPage.swift */; };
 		0C52F5602BB6E8B8003B704A /* PlaceholderPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52F55F2BB6E8B8003B704A /* PlaceholderPage.swift */; };
+		0C52F5682BB76ABC003B704A /* Read.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52F5672BB76ABC003B704A /* Read.swift */; };
+		0C52F56A2BB76FDC003B704A /* Read2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C52F5692BB76FDC003B704A /* Read2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0C52F5562BB6E819003B704A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0C52F55D2BB6E86C003B704A /* GoBackPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoBackPage.swift; sourceTree = "<group>"; };
 		0C52F55F2BB6E8B8003B704A /* PlaceholderPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderPage.swift; sourceTree = "<group>"; };
+		0C52F5672BB76ABC003B704A /* Read.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read.swift; sourceTree = "<group>"; };
+		0C52F5692BB76FDC003B704A /* Read2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Read2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				0C52F54F2BB6E817003B704A /* CustomTabViewApp.swift */,
 				0C52F5512BB6E817003B704A /* ContentView.swift */,
 				0C52F55D2BB6E86C003B704A /* GoBackPage.swift */,
+				0C52F5672BB76ABC003B704A /* Read.swift */,
+				0C52F5692BB76FDC003B704A /* Read2.swift */,
 				0C52F5532BB6E819003B704A /* Assets.xcassets */,
 				0C52F5552BB6E819003B704A /* Preview Content */,
 				0C52F55F2BB6E8B8003B704A /* PlaceholderPage.swift */,
@@ -145,7 +151,9 @@
 			files = (
 				0C52F5602BB6E8B8003B704A /* PlaceholderPage.swift in Sources */,
 				0C52F5522BB6E817003B704A /* ContentView.swift in Sources */,
+				0C52F56A2BB76FDC003B704A /* Read2.swift in Sources */,
 				0C52F5502BB6E817003B704A /* CustomTabViewApp.swift in Sources */,
+				0C52F5682BB76ABC003B704A /* Read.swift in Sources */,
 				0C52F55E2BB6E86C003B704A /* GoBackPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
