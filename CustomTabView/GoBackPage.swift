@@ -28,9 +28,7 @@ struct GoBackPage: View {
             .toolbar(.hidden, for: .tabBar)
         }
         .onChange(of: currentPageSelection) { oldValue, newValue in
-            if newValue == 3 { // 3 is this page
-                previousPage = oldValue
-            }
+            previousPage = oldValue
         }
     }
 }
